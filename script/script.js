@@ -77,8 +77,8 @@ Mtlem.style.backgroundColor = "red";
 BEM.style.backgroundColor = "black";
 BEM.style.color = "white";
 Amazigh.setAttribute("disabled", "disabled");
-alert("Important : Note Are Numbers And Not String (Words) So Don't Try To Use String Even If You Do, You Will See A NaN Sign Which Means 'NOT A NUMBER' Good Luck! بالتوفيق ان شاء الله");
-
+alert(`Website Made By : ALLAOUA Okba All Right Reserved!
+Important : Note Are Numbers And Not String (Words) So Don't Try To Use String Even If You Do, You Will See A NaN Sign Which Means 'NOT A NUMBER' Good Luck! بالتوفيق ان شاء الله`);
 btn.addEventListener("click", function CalceMoy() {
     if (((Maths.value > 20) || (Maths.value < 0)) || ((Physic.value > 20) || (Physic.value < 0)) || ((Sport.value > 20) || (Sport.value < 0)) || ((Islamic.value > 20) || (Islamic.value < 0)) || ((HisGeo.value > 20) || (HisGeo.value < 0)) || ((Frensh.value > 20) || (Frensh.value < 0)) || ((English.value > 20) || (English.value < 0)) || ((Arabic.value > 20) || (Arabic.value < 0)) || ((Science.value > 20) || (Science.value < 0)) || ((Philo.value > 20) || (Philo.value < 0)) || ((Md.value > 20) || (Md.value < 0)) || ((Cmp.value > 20) || (Cmp.value < 0))) {
         notice.textContent = "error in one of the marks";
