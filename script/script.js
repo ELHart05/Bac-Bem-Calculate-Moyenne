@@ -141,13 +141,13 @@ btn.addEventListener("click", function CalceMoy() {
 
         case 'BEM':
             if ((Amazigh.classList.contains("Amazighdecoration")) && (Sport.classList.contains("Sportdecoration"))) {
-                moyenne.textContent = (Number((Maths.value * 4) + (Physic.value * 2) + (Islamic.value * 2) + (HisGeo.value * 3) + (Arabic.value * 5) + (Science.value * 2) + (English.value * 2) + (Frensh.value * 3) + (Philo.value * 1) + (Md.value * 1)) / 23).toFixed(2);
+                moyenne.textContent = (Number((Maths.value * 4) + (Physic.value * 2) + (Islamic.value * 2) + (HisGeo.value * 3) + (Arabic.value * 5) + (Science.value * 2) + (English.value * 2) + (Frensh.value * 3) + (Philo.value * 1) + (Md.value * 1)) / 25).toFixed(2);
             } else if ((Amazigh.classList.contains("Amazighdecoration")) && (!(Sport.classList.contains("Sportdecoration")))) {
-                moyenne.textContent = (Number((Maths.value * 4) + (Physic.value * 2) + (Islamic.value * 2) + (HisGeo.value * 3) + (Arabic.value * 5) + (Science.value * 2) + (English.value * 2) + (Frensh.value * 3) + (Philo.value * 1) + (Md.value * 1) + (Sport.value * 1)) / 24).toFixed(2);
+                moyenne.textContent = (Number((Maths.value * 4) + (Physic.value * 2) + (Islamic.value * 2) + (HisGeo.value * 3) + (Arabic.value * 5) + (Science.value * 2) + (English.value * 2) + (Frensh.value * 3) + (Philo.value * 1) + (Md.value * 1) + (Sport.value * 1)) / 26).toFixed(2);
             } else if ((!(Amazigh.classList.contains("Amazighdecoration"))) && (Sport.classList.contains("Sportdecoration"))) {
-                moyenne.textContent = (Number((Maths.value * 4) + (Physic.value * 2) + (Islamic.value * 2) + (HisGeo.value * 3) + (Arabic.value * 5) + (Amazigh.value * 2) + (Science.value * 2) + (English.value * 2) + (Frensh.value * 3) + (Philo.value * 1) + (Md.value * 1)) / 25).toFixed(2);
+                moyenne.textContent = (Number((Maths.value * 4) + (Physic.value * 2) + (Islamic.value * 2) + (HisGeo.value * 3) + (Arabic.value * 5) + (Amazigh.value * 2) + (Science.value * 2) + (English.value * 2) + (Frensh.value * 3) + (Philo.value * 1) + (Md.value * 1)) / 27).toFixed(2);
             } else {
-                moyenne.textContent = (Number((Maths.value * 4) + (Physic.value * 2) + (Islamic.value * 2) + (HisGeo.value * 3) + (Arabic.value * 5) + (Science.value * 2) + (English.value * 2) + (Frensh.value * 3) + (Philo.value * 1) + (Md.value * 1) + (Amazigh.value * 2) + (Sport.value * 1)) / 26).toFixed(2);
+                moyenne.textContent = (Number((Maths.value * 4) + (Physic.value * 2) + (Islamic.value * 2) + (HisGeo.value * 3) + (Arabic.value * 5) + (Science.value * 2) + (English.value * 2) + (Frensh.value * 3) + (Philo.value * 1) + (Md.value * 1) + (Amazigh.value * 2) + (Sport.value * 1)) / 28).toFixed(2);
             }
             notice.style.display = "none";
             pre.style.display = "flex";
