@@ -7,3 +7,5 @@ Simple Moyenne Calculator Using Pure JS in way to develop my skills
 NOTE : THE WEBSITE IS HOSTED ON NETLIFY YOU CAN CHECK IT OUT : https://bacbemcalce.netlify.app/
 
 NOTE : ALL RIGHTS RESERVED FOR ME.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5cb94c8a-7fc8-41b2-9047-9235868ebc68/deploy-status)](https://app.netlify.com/sites/bacbemcalce/deploys)
