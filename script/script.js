@@ -24,6 +24,7 @@ const Cmptr = document.querySelector(".Cmptr");
 const Mdtr = document.querySelector(".Mdtr");
 const BEM = document.querySelector(".BEM");
 const span = document.querySelector(".span-title");
+const span2 = document.querySelector(".span-title2");
 const BtnContainer = document.querySelector(".btn-container");
 const title = document.querySelector("title");
 const checkbox1 = document.querySelector(".checkbox1");
@@ -69,7 +70,8 @@ const CmpName = document.querySelector(".CmpName");
 const MdName = document.querySelector(".MdName");
 const AmazighName = document.querySelector(".AmazighName");
 
-
+alert(`Website Made By : ALLAOUA Okba All Right Reserved!
+Important : Note Are Numbers And Not String (Words) So Don't Try To Use String Even If You Do, You Will See A NaN Sign Which Means 'NOT A NUMBER' Good Luck! بالتوفيق ان شاء الله`);
 Cmptr.style.display = "none";
 Mdtr.style.display = "none";
 pre.style.display = "none";
@@ -77,8 +79,8 @@ Mtlem.style.backgroundColor = "red";
 BEM.style.backgroundColor = "black";
 BEM.style.color = "white";
 Amazigh.setAttribute("disabled", "disabled");
-alert(`Website Made By : ALLAOUA Okba All Right Reserved!
-Important : Note Are Numbers And Not String (Words) So Don't Try To Use String Even If You Do, You Will See A NaN Sign Which Means 'NOT A NUMBER' Good Luck! بالتوفيق ان شاء الله`);
+
+
 btn.addEventListener("click", function CalceMoy() {
     if (((Maths.value > 20) || (Maths.value < 0)) || ((Physic.value > 20) || (Physic.value < 0)) || ((Sport.value > 20) || (Sport.value < 0)) || ((Islamic.value > 20) || (Islamic.value < 0)) || ((HisGeo.value > 20) || (HisGeo.value < 0)) || ((Frensh.value > 20) || (Frensh.value < 0)) || ((English.value > 20) || (English.value < 0)) || ((Arabic.value > 20) || (Arabic.value < 0)) || ((Science.value > 20) || (Science.value < 0)) || ((Philo.value > 20) || (Philo.value < 0)) || ((Md.value > 20) || (Md.value < 0)) || ((Cmp.value > 20) || (Cmp.value < 0))) {
         notice.textContent = "error in one of the marks";
@@ -309,6 +311,7 @@ BEM.addEventListener("click", function () {
     ResetNotes();
     if (BEM.textContent == 'Visit BAC One') {
         span.textContent = 'BAC';
+        span2.textContent = 'BAC';
         BEM.textContent = 'Visit BEM One';
         BtnContainer.style.display = "flex";
         Mdtr.style.display = "none";
@@ -319,6 +322,7 @@ BEM.addEventListener("click", function () {
         title.textContent = 'BAC Moyenne';
     } else {
         span.textContent = 'BEM';
+        span2.textContent = 'BEM';
         BEM.textContent = 'Visit BAC One';
         BtnContainer.style.display = "none";
         Mdtr.style.display = "table-row";
